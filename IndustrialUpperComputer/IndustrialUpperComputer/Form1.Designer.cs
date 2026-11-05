@@ -105,6 +105,7 @@
             txtPort.Name = "txtPort";
             txtPort.Size = new Size(159, 27);
             txtPort.TabIndex = 5;
+            txtPort.Text = "8000";
             // 
             // txtIP
             // 
@@ -112,6 +113,7 @@
             txtIP.Name = "txtIP";
             txtIP.Size = new Size(159, 27);
             txtIP.TabIndex = 4;
+            txtIP.Text = "192.168.1.72";
             // 
             // lblBaudRate
             // 
@@ -206,6 +208,7 @@
             btnConnect.TabIndex = 2;
             btnConnect.Text = "连接";
             btnConnect.UseVisualStyleBackColor = true;
+            btnConnect.Click += btnConnect_Click;
             // 
             // btnSend
             // 
@@ -215,6 +218,7 @@
             btnSend.TabIndex = 3;
             btnSend.Text = "发送";
             btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
             // 
             // btnQuery
             // 
@@ -233,6 +237,7 @@
             btnClose.TabIndex = 5;
             btnClose.Text = "关闭";
             btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btnClose_Click;
             // 
             // lblStatusText
             // 

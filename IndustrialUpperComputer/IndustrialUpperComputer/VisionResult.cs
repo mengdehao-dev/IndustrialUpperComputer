@@ -11,7 +11,7 @@ namespace IndustrialUpperComputer
         public double Column { get; set; }
         public double Angel { get; set; }       //产品角度
         public double Score {  get; set; }      //产品得分
-        public bool IsOK {  get; set; }         //是否通过
+        public bool IsOK {  get; private set; }         //是否通过
         public DateTime Time {  get; set; }     //经过时间
     }
 }
